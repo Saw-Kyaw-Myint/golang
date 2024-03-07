@@ -21,6 +21,7 @@ func main() {
 		fmt.Println("It's after noon")
 	}
 
+	//interface
 	whatAmI := func(i interface{}) {
 		switch t := i.(type) {
 		case bool:
